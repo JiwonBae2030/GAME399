@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7280661573691868960}
   m_Layer: 0
-  m_Name: TeleportReticle
+  m_Name: TeleportReticle_Blocked
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -99,7 +99,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 4ab9a3d003f58ce42b2def68a05c7b92, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: c625f4ce8a592914f87fc250b8f46ee7, type: 2}
+      objectReference: {fileID: 2100000, guid: 5d896c1045818034981bdbc1c00b5c7c, type: 2}
     - target: {fileID: 919132149155446097, guid: 4ab9a3d003f58ce42b2def68a05c7b92, type: 3}
       propertyPath: m_Name
       value: Visual
