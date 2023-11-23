@@ -1,4 +1,3 @@
-using UnityEngine.Audio;
 using System;
 using UnityEngine;
 
@@ -8,9 +7,9 @@ public class Sound
 {
     public string name;
     public AudioClip clip;
-    [Range(0,1)]
+    [Range(0, 1)]
     public float volume = 1;
-    [Range(-3,3)]
+    [Range(-3, 3)]
     public float pitch = 1;
     public bool loop = false;
     public AudioSource source;
@@ -44,7 +43,7 @@ public class AudioManager : MonoBehaviour
 
         foreach (Sound s in sounds)
         {
-            if(!s.source)
+            if (!s.source)
                 s.source = gameObject.AddComponent<AudioSource>();
 
             s.source.clip = s.clip;
@@ -53,6 +52,7 @@ public class AudioManager : MonoBehaviour
             s.source.pitch = s.pitch;
             s.source.loop = s.loop;
         }
+
     }
 
     public void Play(string name)
