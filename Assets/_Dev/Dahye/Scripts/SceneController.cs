@@ -8,6 +8,7 @@ public class SceneController : MonoBehaviour
     public void Teleport(int num)
     {
         player.transform.position = positions[num].position;
+        Debug.Log(num);
     }
 
 }
