@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/_Scenes/0 Start Scene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 0
-    path: Assets/_Scenes/Incheon Station.unity
+    path: Assets/Scenes/Incheon Station.unity
     guid: ae26d1a9fba7ba549af1919626ad8f92
   - enabled: 1
     path: Assets/_Scenes/1 Incheon Station.unity
@@ -18,7 +18,10 @@ EditorBuildSettings:
     path: Assets/_Scenes/2 WonInJae Station.unity
     guid: 74379c58860b5ac4686a8386b17139d8
   - enabled: 1
-    path: Assets/_Scenes/3 Technopark.unity
+    path: Assets/_Scenes/3 Technopark Station.unity
+    guid: 70b8821d6be4d2a41bbfaf31b54460bc
+  - enabled: 1
+    path: Assets/_Scenes/4 Technopark.unity
     guid: 06cd84a7a8489ca4c901f4b976ce4576
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
