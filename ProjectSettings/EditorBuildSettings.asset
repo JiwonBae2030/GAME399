@@ -16,12 +16,12 @@ EditorBuildSettings:
     guid: e11a6a01f062ebc40a8845c123527f56
   - enabled: 1
     path: Assets/_Scenes/2 WonInJae Station.unity
-    guid: 74379c58860b5ac4686a8386b17139d8
+    guid: 6929208ffd964134cb642acaa06a3496
   - enabled: 1
     path: Assets/_Scenes/3 Technopark Station.unity
     guid: 70b8821d6be4d2a41bbfaf31b54460bc
-  - enabled: 1
-    path: Assets/_Scenes/4 Technopark.unity
+  - enabled: 0
+    path: Assets/_Scenes/3 Technopark.unity
     guid: 06cd84a7a8489ca4c901f4b976ce4576
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}

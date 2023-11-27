@@ -7,6 +7,8 @@ public class UIAudio : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler
     public string hoverEnterAudioName;
     public string hoverExitAudioName;
 
+
+
     public void OnPointerClick(PointerEventData eventData)
     {
         if (clickAudioName != "")
