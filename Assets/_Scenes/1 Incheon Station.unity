@@ -1046,7 +1046,7 @@ PrefabInstance:
 
 
 
-        Go to Tap!'
+        Go to the Gate!'
       objectReference: {fileID: 0}
     - target: {fileID: 1962618784652928287, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_fontStyle
@@ -2230,7 +2230,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8153302970082703802, guid: 613095e3ab17e8346870d06f4ea1e9b5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1667
+      value: -3255
       objectReference: {fileID: 0}
     - target: {fileID: 8153302970082703802, guid: 613095e3ab17e8346870d06f4ea1e9b5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3812,6 +3812,30 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4033332398934200084, guid: 9672b4c54448efd4c9b0a4c7f4f8483f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.9090492
+      objectReference: {fileID: 0}
+    - target: {fileID: 4033332398934200084, guid: 9672b4c54448efd4c9b0a4c7f4f8483f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.9090492
+      objectReference: {fileID: 0}
+    - target: {fileID: 4033332398934200084, guid: 9672b4c54448efd4c9b0a4c7f4f8483f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.9090492
+      objectReference: {fileID: 0}
+    - target: {fileID: 4033332398934200084, guid: 9672b4c54448efd4c9b0a4c7f4f8483f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 333
+      objectReference: {fileID: 0}
+    - target: {fileID: 4033332398934200084, guid: 9672b4c54448efd4c9b0a4c7f4f8483f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4033332398934200084, guid: 9672b4c54448efd4c9b0a4c7f4f8483f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -92
+      objectReference: {fileID: 0}
     - target: {fileID: 4558068458584025105, guid: 9672b4c54448efd4c9b0a4c7f4f8483f, type: 3}
       propertyPath: m_Name
       value: UICardMachine
@@ -5328,19 +5352,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6299588086711109440, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7635219
+      value: 0.79404044
       objectReference: {fileID: 0}
     - target: {fileID: 6299588086711109440, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.08613146
+      value: 0.17993706
       objectReference: {fileID: 0}
     - target: {fileID: 6299588086711109440, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.63675696
+      value: 0.5610307
       objectReference: {fileID: 0}
     - target: {fileID: 6299588086711109440, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.064469
+      value: -0.14955617
       objectReference: {fileID: 0}
     - target: {fileID: 6299588086711109440, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -5352,15 +5376,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6299588086711109440, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 12.335
+      value: 26.973
       objectReference: {fileID: 0}
     - target: {fileID: 6299588086711109440, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 79.726
+      value: 69.937
       objectReference: {fileID: 0}
     - target: {fileID: 6299588086711109440, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0.659
+      value: -2.29
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
