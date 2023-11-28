@@ -4,34 +4,10 @@ using UnityEngine.UI;
 
 public class UIAudio : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
 {
-    public Button myButton;
     public string clickAudioName;
     public string hoverEnterAudioName;
     public string hoverExitAudioName;
 
-    public string play;
-    public string stop;
-
-    private bool isPlaying = false;
-
-    private void Start()
-    {
-        myButton.onClick.AddListener(ToggleSound);
-    }
-
-    private void ToggleSound()
-    {
-        if (isPlaying)
-        {
-            AudioManager.instance.Stop(stop);
-            isPlaying = false;
-        }
-        else
-        {
-            AudioManager.instance.Play(play);
-            isPlaying = true;
-        }
-    }
 
     public void OnPointerClick(PointerEventData eventData)
     {
