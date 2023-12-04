@@ -10,9 +10,11 @@ public class CardCollision : MonoBehaviour
     {
         if(col.tag == "card")
         {
-            Debug.Log("충돌 판정 !!!!");
+            Debug.Log("카드가 찍힙니다");
 
             particleObject.Play();
+
+            AudioManager.instance.Play("Transfer");
         }
     }
 }

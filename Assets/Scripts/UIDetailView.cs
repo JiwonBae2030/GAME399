@@ -10,4 +10,10 @@ public class UIDetailView : MonoBehaviour
     {
         oImageDetail.SetActive(true);
     }
+
+    public void OnClick_Detail_Magnifier()
+    {
+        this.gameObject.SetActive(false);
+        oImageDetail.SetActive(true);
+    }
 }
