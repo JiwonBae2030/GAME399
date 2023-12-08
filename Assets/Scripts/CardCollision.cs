@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CardCollision : MonoBehaviour
@@ -8,13 +6,16 @@ public class CardCollision : MonoBehaviour
 
     public void OnTriggerEnter(Collider col)
     {
-        if(col.tag == "card")
+        if (col.tag == "card")
         {
-            Debug.Log("Ä«µå°¡ ÂïÈü´Ï´Ù");
+            AudioManager.instance.Play("tap");
+
 
             particleObject.Play();
 
             AudioManager.instance.Play("Transfer");
         }
+        else
+            AudioManager.instance.Stop("tap");
     }
 }

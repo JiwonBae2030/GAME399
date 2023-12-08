@@ -847,7 +847,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4433644859537631919, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4433644859537631919, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -903,7 +903,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4433644859537631919, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
-      value: 
+      value: take2.5
       objectReference: {fileID: 0}
     - target: {fileID: 4433644859537631919, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1695,6 +1695,18 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: PlayonAwake
     clip: {fileID: 8300000, guid: f83c3e35d3faf6042a045f427d90b3bd, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: tap
+    clip: {fileID: 8300000, guid: 3c6eabb4c66ed1d438ebe000eaa19f51, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: take2.5
+    clip: {fileID: 8300000, guid: 521436998ce474543b0c527d66813b19, type: 3}
     volume: 1
     pitch: 1
     loop: 0
@@ -3355,7 +3367,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4433644859537631919, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4433644859537631919, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3383,7 +3395,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4433644859537631919, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: 
+      value: AudioStop
       objectReference: {fileID: 0}
     - target: {fileID: 4433644859537631919, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
@@ -3403,7 +3415,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4433644859537631919, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
-      value: 
+      value: take2.5
       objectReference: {fileID: 0}
     - target: {fileID: 4433644859537631919, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
