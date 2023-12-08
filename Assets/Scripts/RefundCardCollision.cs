@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class RefundCardCollision : MonoBehaviour
@@ -10,7 +8,7 @@ public class RefundCardCollision : MonoBehaviour
     {
         if (col.tag == "card")
         {
-            Debug.Log("카드가 환불합니다.");
+            AudioManager.instance.Play("tap");
 
             col.gameObject.SetActive(false);
 
@@ -19,6 +17,10 @@ public class RefundCardCollision : MonoBehaviour
 
 
             AudioManager.instance.Play("Transfer");
+        }
+        else
+        {
+            AudioManager.instance.Stop("tap");
         }
     }
 }
