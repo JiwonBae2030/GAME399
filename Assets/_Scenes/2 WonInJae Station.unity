@@ -1124,11 +1124,11 @@ PrefabInstance:
     - target: {fileID: 4433644859537631919, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 838107454}
+      objectReference: {fileID: 876441231}
     - target: {fileID: 4433644859537631919, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 838107454}
+      objectReference: {fileID: 876441231}
     - target: {fileID: 4433644859537631919, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
@@ -1138,8 +1138,20 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4433644859537631919, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: AudioPlay
+      objectReference: {fileID: 0}
+    - target: {fileID: 4433644859537631919, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: Stop
+      value: AudioStop
+      objectReference: {fileID: 0}
+    - target: {fileID: 4433644859537631919, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: IncheonSceneController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4433644859537631919, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: IncheonSceneController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4433644859537631919, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
@@ -2194,6 +2206,50 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+--- !u!1 &876441228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 876441230}
+  - component: {fileID: 876441231}
+  m_Layer: 0
+  m_Name: SceneController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &876441230
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 876441228}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &876441231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 876441228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b6bba6062db82459e43d7bea4f78a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &937883823
 GameObject:
   m_ObjectHideFlags: 0
@@ -2318,11 +2374,11 @@ PrefabInstance:
     - target: {fileID: 3892748463061814842, guid: 613095e3ab17e8346870d06f4ea1e9b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 838107454}
+      objectReference: {fileID: 876441231}
     - target: {fileID: 3892748463061814842, guid: 613095e3ab17e8346870d06f4ea1e9b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 838107454}
+      objectReference: {fileID: 876441231}
     - target: {fileID: 3892748463061814842, guid: 613095e3ab17e8346870d06f4ea1e9b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -2341,11 +2397,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3892748463061814842, guid: 613095e3ab17e8346870d06f4ea1e9b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Play
+      value: AudioPlay
       objectReference: {fileID: 0}
     - target: {fileID: 3892748463061814842, guid: 613095e3ab17e8346870d06f4ea1e9b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: Stop
+      value: AudioStop
       objectReference: {fileID: 0}
     - target: {fileID: 3892748463061814842, guid: 613095e3ab17e8346870d06f4ea1e9b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -2353,11 +2409,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3892748463061814842, guid: 613095e3ab17e8346870d06f4ea1e9b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: AudioManager, Assembly-CSharp
+      value: IncheonSceneController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3892748463061814842, guid: 613095e3ab17e8346870d06f4ea1e9b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: AudioManager, Assembly-CSharp
+      value: IncheonSceneController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3892748463061814842, guid: 613095e3ab17e8346870d06f4ea1e9b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
@@ -3274,10 +3330,14 @@ PrefabInstance:
     - target: {fileID: 3114546346120420503, guid: 22d5bc892bfbd3b469241b884ff00815, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 838107454}
+      objectReference: {fileID: 876441231}
     - target: {fileID: 3114546346120420503, guid: 22d5bc892bfbd3b469241b884ff00815, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Play
+      value: AudioPlay
+      objectReference: {fileID: 0}
+    - target: {fileID: 3114546346120420503, guid: 22d5bc892bfbd3b469241b884ff00815, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: IncheonSceneController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6461813159659698969, guid: 22d5bc892bfbd3b469241b884ff00815, type: 3}
       propertyPath: m_Name
@@ -3809,7 +3869,7 @@ PrefabInstance:
     - target: {fileID: 3892748463061814842, guid: 613095e3ab17e8346870d06f4ea1e9b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 838107454}
+      objectReference: {fileID: 876441231}
     - target: {fileID: 3892748463061814842, guid: 613095e3ab17e8346870d06f4ea1e9b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
@@ -3832,7 +3892,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3892748463061814842, guid: 613095e3ab17e8346870d06f4ea1e9b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Stop
+      value: AudioStop
       objectReference: {fileID: 0}
     - target: {fileID: 3892748463061814842, guid: 613095e3ab17e8346870d06f4ea1e9b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -3844,7 +3904,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3892748463061814842, guid: 613095e3ab17e8346870d06f4ea1e9b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: AudioManager, Assembly-CSharp
+      value: IncheonSceneController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3892748463061814842, guid: 613095e3ab17e8346870d06f4ea1e9b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
@@ -6000,11 +6060,11 @@ PrefabInstance:
     - target: {fileID: 3892748463061814842, guid: 613095e3ab17e8346870d06f4ea1e9b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 838107454}
+      objectReference: {fileID: 876441231}
     - target: {fileID: 3892748463061814842, guid: 613095e3ab17e8346870d06f4ea1e9b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 838107454}
+      objectReference: {fileID: 876441231}
     - target: {fileID: 3892748463061814842, guid: 613095e3ab17e8346870d06f4ea1e9b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -6023,11 +6083,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3892748463061814842, guid: 613095e3ab17e8346870d06f4ea1e9b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Play
+      value: AudioPlay
       objectReference: {fileID: 0}
     - target: {fileID: 3892748463061814842, guid: 613095e3ab17e8346870d06f4ea1e9b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: Stop
+      value: AudioStop
       objectReference: {fileID: 0}
     - target: {fileID: 3892748463061814842, guid: 613095e3ab17e8346870d06f4ea1e9b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -6035,11 +6095,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3892748463061814842, guid: 613095e3ab17e8346870d06f4ea1e9b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: AudioManager, Assembly-CSharp
+      value: IncheonSceneController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3892748463061814842, guid: 613095e3ab17e8346870d06f4ea1e9b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: AudioManager, Assembly-CSharp
+      value: IncheonSceneController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3892748463061814842, guid: 613095e3ab17e8346870d06f4ea1e9b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
@@ -6819,11 +6879,11 @@ PrefabInstance:
     - target: {fileID: 4433644859537631919, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 838107454}
+      objectReference: {fileID: 876441231}
     - target: {fileID: 4433644859537631919, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 838107454}
+      objectReference: {fileID: 876441231}
     - target: {fileID: 4433644859537631919, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
@@ -6831,6 +6891,22 @@ PrefabInstance:
     - target: {fileID: 4433644859537631919, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4433644859537631919, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: AudioPlay
+      objectReference: {fileID: 0}
+    - target: {fileID: 4433644859537631919, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: AudioStop
+      objectReference: {fileID: 0}
+    - target: {fileID: 4433644859537631919, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: IncheonSceneController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4433644859537631919, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: IncheonSceneController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4433644859537631919, guid: ceb75f29042e7a241b392d18b1a66ecc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
