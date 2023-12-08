@@ -2171,12 +2171,6 @@ MonoBehaviour:
     loop: 0
     source: {fileID: 0}
   - name: take3
-    clip: {fileID: 8300000, guid: f14626a1554594243b7da255794e0ec8, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - name: take3
     clip: {fileID: 8300000, guid: 055450779c38a1443b5a7012233afd2b, type: 3}
     volume: 1
     pitch: 1
